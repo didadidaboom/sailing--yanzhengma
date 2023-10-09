@@ -100,6 +100,22 @@ https://cloud.tencent.com/product/isms/getting-started
 	}
 ```
 
+spring中配置redis的密码
+```
+  redis:
+    host: 1.14.6.39
+    port: 6379
+    shutdown-timeout: 100
+    lettuce:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: 10000
+    timeout: 10000
+    password: gotyouapp
+```
+
 ##### 1.3.6 启动服务
 
 ```log
