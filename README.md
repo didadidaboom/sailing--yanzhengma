@@ -127,6 +127,14 @@ Completed initialization in 7 ms
 验证码服务API接口文档
 ```
 http://localhost:56085/sailing/swagger-ui.html
+
+发送验证码
+参数为：
+	+ name: 业务名称（使用任何方式的验证码，可选的有sms,img,mail等）
+	+ payload：业务携带参数，如手机号、邮箱
+	+ effectiveTime: 验证信息有效期（秒）
+
+
 ```
 
 在控制台查看验证码：
