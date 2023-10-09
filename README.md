@@ -113,7 +113,7 @@ spring中配置redis的密码
         max-active: 8
         max-wait: 10000
     timeout: 10000
-    password: gotyouapp
+    password: xxxxx
 ```
 
 ##### 1.3.6 启动服务
