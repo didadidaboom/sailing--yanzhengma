@@ -124,6 +124,11 @@ Started SailingBootstrap in 3.224 seconds (JVM running for 4.01)
 Completed initialization in 7 ms
 ```
 
+验证码服务API接口文档
+```
+http://localhost:56085/sailing/swagger-ui.html
+```
+
 在控制台查看验证码：
 
 ```
